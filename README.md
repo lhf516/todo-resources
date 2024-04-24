@@ -1,6 +1,8 @@
 # todo-resources
 Resources for the Todo List Sample Project
 
+***Use Docker Compose to create MongoDB and mongo-express***
+
 ## Prerequisites
 1. Create network manually
    1. Network named `todo-sample` as an example
@@ -8,3 +10,7 @@ Resources for the Todo List Sample Project
 3. Move `.env.sample` to `.env` and use your own configuration
 4. Update `init-db/mongodb/mongo-init.js` to use your own configuration
 
+# Todo
+- [ ] Add DB
+- [ ] Add Kafka
+- [ ] Add Redis
