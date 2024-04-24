@@ -10,6 +10,9 @@ Resources for the Todo List Sample Project
 3. Move `.env.sample` to `.env` and use your own configuration
 4. Update `init-db/mongodb/mongo-init.js` to use your own configuration
 
+## Start by docker
+1. Run this command `docker compose -p todolist up -d`
+
 # Todo
 - [x] Add DB
 - [ ] Add Kafka

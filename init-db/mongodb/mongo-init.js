@@ -12,7 +12,7 @@ db.createUser({
 db = new Mongo().getDB("todolist");
 
 db.createCollection('users', { capped: false });
-db.createCollection('todos', { capped: false });
+db.createCollection('tasks', { capped: false });
 
 // db.test.insert([
 //   { "item": 1 },
