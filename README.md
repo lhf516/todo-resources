@@ -11,6 +11,6 @@ Resources for the Todo List Sample Project
 4. Update `init-db/mongodb/mongo-init.js` to use your own configuration
 
 # Todo
-- [ ] Add DB
+- [x] Add DB
 - [ ] Add Kafka
 - [ ] Add Redis
